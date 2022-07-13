@@ -1,5 +1,9 @@
 
-
+.background{
+    display:block;
+    width: 100%;
+    height: 80%; 
+}
 .logo{
   
     color: red;
@@ -58,18 +62,20 @@
 .item{
     display: inline-block;
     height: 120px;
-    width: 300PX;
+    width: 300px;
     margin: 5px;
     border: solid thin red;
 }
 .item-left{
-    width: 50%;
+
     display: inline-block;
     vertical-align: top;
 }
 
 .item-right{
-    display: inline-block;
+       display: inline-block;
+    width: 48%;
+    padding-top: 10px;
 
 }
 .item-head{
